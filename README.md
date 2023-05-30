@@ -1,4 +1,6 @@
 # Getting Started with Create React App
+![image](https://github.com/Adansote/react-redux-auth-google/assets/96309302/4df00def-abfa-48f4-b4f5-b538617073b8)
+![image](https://github.com/Adansote/react-redux-auth-google/assets/96309302/859c1cca-5884-4f74-bdfa-9984062ec03a)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
