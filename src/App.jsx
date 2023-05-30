@@ -66,7 +66,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Outlet,
+  //Outlet,
   Navigate
 } from "react-router-dom";
 
