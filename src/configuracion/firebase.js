@@ -1,9 +1,11 @@
 
-
 //import { initializeApp } from "firebase/app";
 //import { getAuth } from "firebase/auth";
 import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
+import "firebase/compat/firestore"
+import 'firebase/storage';
+import 'firebase/compat/storage';
 
 const firebaseConfig = {
   apiKey: "AIzaSyCjJdI5XcExb-FXHytbUqvHwBzUN8QxwKA",
@@ -19,13 +21,15 @@ const firebaseConfig = {
 //const auth = getAuth(app)
 //export { firebaseConfig, auth, app };
 
-
-
 firebase.initializeApp(firebaseConfig);
 
 // Obtener instancia de autenticación
 export const auth = firebase.auth();
 
+const  db = firebase.firestore()
+//const storage = getStorage();
+//const storage = firebase.firestore()
+const storage = firebase.storage()
+export { db, storage };
 export default firebase;
 
-;

@@ -71,6 +71,7 @@ import {
 } from "react-router-dom";
 
 import { auth } from "./configuracion/firebase";
+import Perfil from "./components/Perfil";
 
 function App() {
   const [firebaseUser, setFirebaseUser] = React.useState(false);
@@ -108,6 +109,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<RutaPrivada><Pokemones /></RutaPrivada>} />
+          <Route path="/perfil" element={<RutaPrivada><Perfil /></RutaPrivada>} />
           <Route path="/login" element={<Login />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>

@@ -52,6 +52,7 @@ const Navbar = () => {
           activo ?(
           <>
           <NavLink className="btn btn-outline-dark mr-2 text-white" to="/" end>Inicio</NavLink>
+          <NavLink className="btn btn-outline-dark mr-2 text-white" to="/perfil" end>Perfil</NavLink>
           <button onClick={()=> cerrarSesion()} className='btn btn-outline-dark text-white mr-2'>Cerrar Sesión</button>
           </> 
           ):(
